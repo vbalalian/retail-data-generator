@@ -41,7 +41,7 @@ All config via environment variables (or `.env` file):
 | `SCALE` | `0.01` | Volume multiplier. 0.01 = dev (~400K POS txns), 1.0 = production (~40M) |
 | `SEED` | `42` | Random seed for reproducibility |
 | `HISTORY_START` | `2023-01-01` | Earliest transaction date |
-| `BQ_PROJECT` | `mkt-analytics-project` | BigQuery project ID |
+| `BQ_PROJECT` | `your-project-name` | BigQuery project ID |
 | `BQ_DATASET` | `retail_raw` | BigQuery dataset name |
 | `GCS_BUCKET` | (none) | GCS bucket for upload |
 
